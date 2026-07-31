@@ -1,9 +1,31 @@
 aid: nirvana-tech
 name: Nirvana Tech
-description: Nirvana Tech is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Nirvana Insurance (Nirvana Tech, Inc.) is a technology-driven commercial
+  trucking insurance provider that pairs A-rated fleet insurance coverage with
+  an AI-powered active safety platform. Nirvana ingests telematics and
+  connected-vehicle data from motor carriers to price risk more accurately, help
+  fleets save up to 20% on premiums, and reduce accidents through real-time
+  safety alerts, driver coaching, and predictive risk scoring. The company
+  serves fleets and independent insurance agents through a digital quoting and
+  policy-management agent portal, and is backed by General Catalyst. Nirvana
+  raised a Series D round to expand its data-driven insurance and safety
+  products across the trucking industry. As of this profile Nirvana operates a
+  marketing site plus an agent sign-in portal and does not publish a public
+  developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/nirvana-tech/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66b7f3068b19345bbd14c747/69c65dec9be8bcd4289f62e9_OG-Nirvana-Insurance-homepage.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +34,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Commercial Trucking
+- Fleet Safety
+- Telematics
+- Artificial Intelligence
+- Risk Management
+- Connected Vehicles
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/nirvana-tech-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.nirvanatech.com/responsible-disclosure
+- type: DomainSecurity
+  url: security/nirvana-tech-domain-security.yml
+- type: Website
+  url: https://www.nirvanatech.com/
+- type: Blog
+  url: https://www.nirvanatech.com/blog
+- type: Login
+  url: https://agents.nirvanatech.com/
+- type: TermsOfService
+  url: https://www.nirvanatech.com/terms
+- type: PrivacyPolicy
+  url: https://www.nirvanatech.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
